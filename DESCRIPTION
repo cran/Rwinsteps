@@ -1,6 +1,6 @@
 Package: Rwinsteps
-Version: 1.0-0
-Date: 2011-8-31
+Version: 1.0-1
+Date: 2012-1-30
 Title: Running Winsteps in R
 Author: Anthony Albano <tony.d.albano@gmail.com>, Ben Babcock
         <ben.babcock@arrt.org>
@@ -15,6 +15,6 @@ Description: The Rwinsteps package facilitates communication between R
 LazyLoad: yes
 License: GPL (>= 2)
 URL: http://www.r-project.org
-Packaged: 2011-09-01 23:15:44 UTC; Tony
+Packaged: 2012-01-30 18:04:43 UTC; Tony
 Repository: CRAN
-Date/Publication: 2011-09-02 04:53:43
+Date/Publication: 2012-01-30 20:18:17

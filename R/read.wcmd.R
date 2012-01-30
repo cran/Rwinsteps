@@ -5,9 +5,9 @@ read.wcmd <- function(filename) {
   cmdr <- trim(gsub(";.+", "", cmdr))
 
   asti <- grep("\\*", cmdr)
-  nami <- grep("=.+", cmdr, ignore = TRUE)
+  nami <- grep("=.+", cmdr, ignore.case = TRUE)
   nami <- nami[!nami %in% asti]
-  endi <- grep("&end", cmdr, ignore = TRUE) + 1
+  endi <- grep("&end", cmdr, ignore.case = TRUE) + 1
 
   cmdnames <- trim(tolower(gsub("=.+", "", cmdr[nami])))
   out <- list()

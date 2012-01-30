@@ -1,3 +1,10 @@
-Rwinsteps (2011-08-31)
+Rwinsteps_1.0-1 (2012-01-30)
+
+  o Test response functions updated to handle single
+    values for theta
+
+  o Print method for output file fixed
+
+Rwinsteps_1.0-0 (2011-08-31)
 
   o Initial release on CRAN

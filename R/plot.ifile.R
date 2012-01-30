@@ -1,6 +1,5 @@
 plot.ifile <- function(x, theta = seq(-4, 4, length = 100),
-  subset = 1:nrow(x), xlab = expression(theta), lwd = 2,
-  col = "r", ...) {
+  subset = 1:nrow(x), ...) {
 
   if(is.character(subset))
     subset <- which(x$name == subset)

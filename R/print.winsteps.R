@@ -4,5 +4,5 @@ print.winsteps <- function(x, ...) {
   cat("Date:   ", x$daterun, "\n")
   cat("Seconds:", x$comptime["elapsed"], "\n")
   cat("Items:  ", nrow(x$ifile), "\n")
-  cat("Persons:", nrow(x$ifile), "\n\n")
+  cat("Persons:", nrow(x$pfile), "\n\n")
 }

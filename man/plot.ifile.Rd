@@ -15,8 +15,7 @@ These are Rasch model plot methods for item response functions, item inforamtion
 }
 \usage{
 \method{plot}{ifile}(x, theta = seq(-4, 4, length = 100),
-  subset = 1:nrow(x), xlab = expression(theta), lwd = 2,
-  col = "r", ...)
+  subset = 1:nrow(x), ...)
 
 \method{plot}{rirf}(x, theta = x$theta, add = FALSE,
   xlab = expression(theta), ylab = "P(X)", main = "IRF",

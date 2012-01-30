@@ -18,9 +18,9 @@ as.ifile(x)
 
 as.pfile(x)
 
-read.ifile(filename, skip = 1, col.names, ...)
+read.ifile(filename, skip = 1, col.names, sep = ",", ...)
 
-read.pfile(filename, skip = 1, col.names, ...)
+read.pfile(filename, skip = 1, col.names, sep = ",", ...)
 }
 \arguments{
   \item{measure}{
@@ -41,8 +41,11 @@ number of header lines to skip, defaulting to 1
   \item{col.names}{
 vector of column names to be added to the file after it is read in
 }
+  \item{sep}{
+the field separator character, sent to \code{read.table}, defaulting to comma separated values
+}
   \item{\dots}{
-For \code{ifile} and \code{pfile}, additional variables, as vectors of the same length as \code{measure}, to be included in the ifile or pfile; for \code{read.ifile} and \code{read.pfile}, further arguments passed to \code{read.csv}
+For \code{ifile} and \code{pfile}, additional variables, as vectors of the same length as \code{measure}, to be included in the ifile or pfile; for \code{read.ifile} and \code{read.pfile}, further arguments passed to \code{read.table}
 }
 }
 \details{

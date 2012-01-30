@@ -11,8 +11,8 @@ The Rwinsteps package facilitates communication between R and the Rasch modeling
 \details{
 \tabular{ll}{
 Package: \tab Rwinsteps\cr
-Version: \tab 1.0-0\cr
-Date: \tab 2011-8-31\cr
+Version: \tab 1.0-1\cr
+Date: \tab 2012-1-30\cr
 Depends: \tab R (>= 2.12.0)\cr
 LazyLoad: \tab yes\cr
 License: \tab GPL (>= 2)\cr
