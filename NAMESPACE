@@ -33,3 +33,21 @@ export(as.ifile,
   winsteps,
   write.wcmd,
   write.wdat)
+
+S3method(lines, rief)
+S3method(lines, riif)
+S3method(lines, rirf)
+S3method(plot, ifile)
+S3method(plot, rief)
+S3method(plot, riif)
+S3method(plot, rirf)
+S3method(plot, rtef)
+S3method(plot, rtif)
+S3method(plot, rtrf)
+S3method(print, wcmd)
+S3method(print, winsteps)
+
+importFrom("grDevices", "rainbow")
+importFrom("graphics", "lines", "lines.default", "plot",
+           "plot.default")
+importFrom("utils", "read.table", "write.table")
